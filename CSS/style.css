@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,500&family=Tilt+Neon&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tilt Neon', sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+.nav{
+    color: #191919;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    position: sticky;
+    font-size: 16px;
+}
+.nav h4{
+    font-weight:100;
+    cursor: pointer;
+}
+.nav h4:hover{
+    border-bottom: 2px solid #FF6900;
+    
+}
+.nav-left{
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    padding: 0 25px;
+    align-items: center;
+}
+.nav-left img{
+    height: 30px;
+}
+.nav-right{
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    padding: 0 50px;
+    align-items: center;
+}
+
+.header{
+    height: 75vh;
+    background: url("/Images/Banner.jpg"),#fcfcfc;
+    background-position:calc(100% - 35%);
+    background-size:700px;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 200px;
+    cursor:pointer;
+}
+.header h1{
+    margin-bottom: 5px;
+}
+.header h2{
+    margin-bottom: 7px;
+    font-weight: 100;
+}
+.header p{
+    font-size: 26px;
+    font-weight: 100;
+    margin-top: -10px;
+}
+.btn{
+    background-color: #202020;
+    color: #fff;
+    padding: 7px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 22px;
+}
+.btn:hover{
+    background-color: #444444;
+}
+
+.scooter{
+    height: 450px;
+    background: url("/Images/MI.jpg");
+    
+    background-position:center;
+    background-size:1500px;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 200px;
+    cursor:pointer;
+    color: white;
+    font-size: 22px;
+}
+.scooter p{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.btn-white{
+    background-color: #f7f7f7;
+    color: #000;
+    padding: 7px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 22px;
+}
+.btn-white:hover{
+    background-color: #E1E1E1;
+}
+.products{
+    background-color:#F7F7F7 ;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.products-top{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    /* background-color: red; */
+    gap: -5px;
+    margin-bottom: 4px;
+}
+.products-top .top-left{
+    background:url("/Images/Band.jpg");
+    height: 100%;
+    width: 50%;
+    background-position:center;
+    background-size:700px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px 0px;
+}
+.btn-2{
+    margin-top: 5px;
+    color: #FF6900;
+}
+.btn-2::after{
+    content: ">";
+    color: #FF6900;
+    padding-left: 2px;
+    font-size: 18px;
+}
+.products-top .top-right{
+    background:url("/Images/mobile.jpg");
+    height: 100%;
+    width: 50%;
+    background-position:center;
+    background-size:700px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px 0px;
+}
+.products-bottom{
+    display: flex;
+    height: 50%;
+    gap:5px;
+}
+.products-bottom .bottom-left{
+    width: 50%;
+    background:url("/Images/Buds.jpg");
+    background-position:center;
+    background-size:700px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px 0px;
+    
+    
+}
+.products-bottom .bottom-mid{
+    width: 25%;
+    background:url("/Images/Pad.jpg");
+    background-position:center;
+    background-size:700px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px 0px;
+}
+.products-bottom .bottom-right{
+    width: 25%;
+    background:url("/Images/brooke-cagle-kvKSL7B6eTo-unsplash.jpg");
+    background-position:center;
+    background-size:700px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px 0px;
+    
+}
+.footer{
+    height: 400px;
+    background-color: #191919;
+    margin-top: 15px;
+}
+
+.footer-top{
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-mid{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-right{
+   
+}
+.footer-right i{
+    display: inline-block;
+}
