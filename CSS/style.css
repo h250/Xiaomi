@@ -245,7 +245,7 @@ html, body{
 }
 .footer-right{
    margin-top: 40px;
-   
+   margin-right: 80px;
 }
 .footer-right h4{
     font-size: 20px;
@@ -288,4 +288,13 @@ hr{
     display: flex;
     gap:8px;
     align-items: center;
+}
+input{
+    margin-top: 10px;
+    padding: 5px 20px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #fff;
 }
